@@ -133,7 +133,7 @@ We want to build real-world applications using:
 
 # Master React
 
-## 📌 Before Learning React
+## Before Learning React
 
 1. Git & GitHub
 2. HTML & CSS
