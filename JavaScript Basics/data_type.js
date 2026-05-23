@@ -107,3 +107,31 @@ function test(){
 console.log(test());
 
 
+// Copy by value
+
+let a = 10;
+let b = a;
+
+b = 20;
+
+console.log(a);
+console.log(b);
+
+// Copy by reference
+// Read about it - Call by value & Call by reference with Functions & Objects
+
+let obj1 = {
+    name: "Bhavesh"
+}
+
+let obj2 = obj1;
+
+obj2.name = "Mali";
+
+console.log(obj1.name);
+console.log(obj2.name);
+
+
+
+
+
