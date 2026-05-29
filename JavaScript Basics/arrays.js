@@ -67,8 +67,97 @@
 // Splice
 // Add, remove or replace elements.
 // Modifies original array.
+// Syntax
+// array.splice(start, deleteCount, newItem)
+
+// Remove Elements
+// let numbers = [1, 2, 3, 4, 5];
+// numbers.splice(1,2);
+// console.log(numbers);
+
+// Add Elements
+// let fruits = ["Apple", "Orange"];
+// fruits.splice(1,0,"Chikku");
+// console.log(fruits);
+
+// Replace Elements
+
+// let fruits = ["Apple", "Orange"];
+// fruits.splice(1,1,"Chikku");
+// console.log(fruits);
 
 
+// Concat() - Combine arrays
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+
+// let result = arr1.concat(arr2);
+// console.log(result);
+
+// includes
+// let fruits = ["Apple", "Orange"];
+// console.log(fruits.includes("Bananna"));
+
+// indexOf - Return index values
+// let fruits = ["Apple", "Orange"];
+// console.log(fruits.indexOf("Orange"));
+
+
+
+// Important Methods
+// Map() -> Creates new array by transforming elements
+
+// let numbers = [1, 2, 3];
+// let result = numbers.map(num => num * 2);
+// console.log(result);
+
+// Filter -> Filter kr deta hain
+
+// let numbers = [1, 2, 3, 4, 5, 6];
+// let result = numbers.filter(num => num % 2 == 0);
+// console.log(result);
+
+// reduce(): Reduces array into single value
+// array.reduce(accumlator, current) => {}, initialValue)
+
+// let numbers = [1, 2, 3, 4];
+// let total = numbers.reduce((acc, curr) => {
+//     return acc + curr;
+// },2);
+// console.log(total);
+
+// find -> Returns first matching element\
+// let users = [10,20,30,40];
+// let result = users.find( num => num > 20);
+// console.log(result);
+
+// Some - Returns true if any element matches
+
+// let numbers = [1, 2, 3, 4];
+// console.log(numbers.some(num => num > 3));
+
+// every() -> Returns true if ALL elements matches
+// let numbers = [2, 4, 6];
+// console.log(numbers.every(num => num % 2 == 0))
+
+// sort()
+
+// let fruits = ["Orange", "Banana", "Mango"];
+// fruits.sort();
+// console.log(fruits);
+
+// forEach() => Executes function for each element.
+
+// let fruits = [1, 2, 3, 4, 45];
+// fruits.forEach((fruit) => {
+//     console.log(fruit);
+// })
+
+// Array Destructing
+// Spread Operator (...)
+// let arr1 = [1, 2];
+// let arr2 = [...arr1, 3, 4];
+// console.log(arr2);
 
 
 
