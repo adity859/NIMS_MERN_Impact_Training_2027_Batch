@@ -9,6 +9,12 @@
 
 // const calculateMultiply = require("./calculate/multiple.js");
 
+const data = require("./data.json");
+
+const util = require('node:util');
+
+console.log(data);
+
 const {calculateMultiply, calculateSum} = require("./calculate");
 
 let name = "Node JS";
