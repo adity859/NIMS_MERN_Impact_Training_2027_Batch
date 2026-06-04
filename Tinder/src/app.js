@@ -3,17 +3,17 @@ const express = require("express");
 const app = express();
 
 app.use("/hello", (req, res) => {
-    res.send("Hello Hello Boyyyyyyyyyyyy!");
+  res.send("Hello Hello Boyyyyyyyyyyyy!");
 });
 
 app.use("/test", (req, res) => {
-    res.send("Hello from the testttt!");
+  res.send("Hello from the testttt!");
 });
 
 app.use("/", (req, res) => {
-    res.send("Hello from the serverwwwwww!");
+  res.send("Hello from the serverwwwwww!");
 });
 
 app.listen(3000, () => {
-    console.log("Server is running on port 3000");
+  console.log("Server is running on port 3000");
 });
